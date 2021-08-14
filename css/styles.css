@@ -1,0 +1,82 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+}
+/*Логотип сайта*/
+.logo {
+  color: var(--title-text-color);
+}
+
+/*Список навигации*/
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*Список контактов хедер*/
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/*Физичиский адрес, список контактов в футере*/
+.contacts-address .link {
+  color: var(--primary-text-color);
+}
+.contacts-address .text {
+  color: var(--primary-text-color);
+}
+
+/*секция Герой*/
+.title-hero {
+  color: var(--title-text-color);
+}
+.button-hero {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button-hero:hover,
+.button-hero:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+/*все заголовки */
+.section-title {
+  color: var(--title-text-color);
+}
+/*список Особенности*/
+.options .title {
+  color: var(--title-text-color);
+}
+.options .text {
+  color: var(--primary-text-color);
+}
+/*список Работа фото*/
+
+/* список команды, фото*/
+.team .title {
+  color: var(--title-text-color);
+}
+.team .text {
+  color: var(--primary-text-color);
+}
