@@ -45,10 +45,18 @@ body {
 .contacts-address .text {
   color: var(--primary-text-color);
 }
+.contacts-address .link:hover,
+.contacts-address .link:focus {
+  color: var(--accent-color);
+}
 
 /*секция Герой*/
+
 .title-hero {
   color: var(--title-text-color);
+}
+.button-hero {
+  cursor: pointer;
 }
 .button-hero {
   color: var(--primary-white-color);
@@ -56,12 +64,12 @@ body {
 }
 .button-hero:hover,
 .button-hero:focus {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 
 /*все заголовки */
-.section-title {
+.section .section-title {
   color: var(--title-text-color);
 }
 /*список Особенности*/
@@ -78,5 +86,29 @@ body {
   color: var(--title-text-color);
 }
 .team .text {
+  color: var(--primary-text-color);
+}
+
+/*Порфолио*/
+
+.button {
+  cursor: pointer;
+}
+.buttons-menu .button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.buttons-menu .button:hover,
+.buttons-menu .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*список проэктов*/
+.projects .title {
+  color: var(--title-text-color);
+}
+.projects .text {
   color: var(--primary-text-color);
 }
